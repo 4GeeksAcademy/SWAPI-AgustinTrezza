@@ -1,3 +1,238 @@
 /* 
     General Styles
 */
+
+body {
+  cursor: url("https://upload.wikimedia.org/wikipedia/commons/d/df/Dueling_lightsabers.svg") 16 16, auto;
+  height: 100vh;
+  background-color: black;
+}
+.imagen-card {
+    width: 90%;
+    height: 16rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 1rem 0.1rem;
+    background-color: black;
+}
+.imagen-card-caracter {
+  width: 100%;
+  margin: auto;
+  height: 13rem;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  /* padding: 1rem 0.1rem; */
+  background-color: black;
+}
+.container-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-botonera {
+  position: fixed;
+    display: flex;
+    bottom: 40px;
+    left: -5px;
+    width: 58px;
+    height: 120px !important;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid hsl(46, 100%, 54%);
+    -webkit-box-shadow: 0px -1px 30px 0px rgba(255,226,112,1);
+-moz-box-shadow: 0px -1px 30px 0px rgba(255,226,112,1);
+box-shadow: 0px -1px 30px 0px rgba(255,226,112,1);
+}
+.container-botonera2 {
+  position: fixed;
+    display: flex;
+    bottom: 40px;
+    left: -5px;
+    width: 58px;
+    /* height: 200px !important; */
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    padding: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #5c8aff;
+    -webkit-box-shadow: 0px -1px 20px 0px rgba(82,151,255,1);
+-moz-box-shadow: 0px -1px 20px 0px rgba(82,151,255,1);
+box-shadow: 0px -1px 20px 0px rgba(82,151,255,1);
+}
+.container-botonera3 {
+  position: fixed;
+    display: flex;
+    bottom: 40px;
+    right: -2px;
+    width: 58px;
+    /* height: 200px !important; */
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #3c71f7;
+    height: 226px;
+    -webkit-box-shadow: 0px -1px 20px 0px rgba(82,151,255,1);
+-moz-box-shadow: 0px -1px 20px 0px rgba(82,151,255,1);
+box-shadow: 0px -1px 20px 0px rgba(82,151,255,1);
+}
+.dropdown-custom {
+    width: 300px!important;
+}
+.logo {
+    width: 10rem;
+    height: 4rem;
+    margin-top: 15px;
+    margin-left: 20px;
+    /* margin-top: -20px; */
+    filter: invert(100%);
+    /* position: fixed; */
+    /* padding: 1rem; */
+    z-index: 1001!important;
+    border-radius: 20px;
+}
+.flex-logo {
+    display: flex!important;
+    align-items: center!important;
+}
+.btn-outline-warning[disabled] .icono-corazon {
+    color: rgb(255, 100, 100) !important;
+}
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(255, 173, 173, 0.5); 
+  }
+.padding-top {
+    padding-top: 2.5rem;
+    }
+.text-logo {
+    color: white;
+    margin-left: 20px;
+    font-size: 23px;
+    margin-bottom: 0px;
+    font-weight: 200;
+}
+.btn-favorite {
+    background: transparent;
+    /* border: 2px solid rgb(50, 50, 255); */
+    color: white;
+    padding: 10px 35px;
+    border-radius: 30px;
+    border: 2px solid hsl(352, 100%, 62%);
+    -webkit-box-shadow: 0px -1px 20px 0px rgba(255,82,82,1);
+-moz-box-shadow: 0px -1px 20px 0px rgba(255,82,82,1);
+box-shadow: 0px -1px 20px 0px rgba(255,82,82,1);
+transition: all ease-in-out .3s;
+}
+.btn-favorite:hover {
+    background: transparent;
+    /* border: 3px solid #3232ff; */
+    color: white;
+    padding: 10px 35px;
+    border-radius: 30px;
+    border: 2px solid hsl(352, 100%, 62%);
+    -webkit-box-shadow: 0px -1px 20px 0px rgba(255,82,82,1);
+-moz-box-shadow: 0px -1px 20px 0px rgba(255,82,82,1);
+box-shadow: 0px -1px 20px 0px rgba(255,82,82,1);
+    transform: scale(1.08);
+}
+.bg-black-transparent {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    z-index: 2!important;
+  }
+  .margin-images {
+    margin-bottom: 1rem;
+  }
+  /* .Toastify__toast--success .Toastify__progress-bar {
+    background: blue;
+  }
+  .Toastify__toast--success .Toastify__icon svg {
+    fill: blue;
+  } */
+  .card-body-custom {
+    background-color: rgba(0, 0, 0, 0.909);
+    /* background: transparent!important; */
+    color: white;
+  }
+  .titulo-fuente {
+    font-size: 45px;
+  }
+  .contenedor-logo {
+    padding-top: 6rem!important;
+    /* margin-top: 10rem!important; */
+  }
+  .card-title {
+    font-size: 28px;
+  }
+  .card-text {
+    font-size: 13px;
+  }
+  .boton-botonera {
+    height: 40px;
+    background-color: black;
+    color: white;
+  }
+.container-custom-chico {
+  width: 75%;
+  margin: auto;
+}
+.dropdown-custom {
+  background-color: rgb(0, 0, 0)!important;
+  border: 1px solid hsl(352, 100%, 62%);
+    -webkit-box-shadow: 0px -1px 20px 0px rgba(255,82,82,1);
+-moz-box-shadow: 0px -1px 20px 0px rgba(255,82,82,1);
+box-shadow: 0px -1px 20px 0px rgba(255,82,82,1);
+transition: all ease-in-out .3s;
+margin-top: 1rem;
+}
+.item-favorite {
+  background-color: rgba(0, 0, 0, 0.531)!important;
+  /* border-bottom: 1px solid blue; */
+  color: white!important;
+}
+.hei {
+  height: 35rem;
+  background-color: black;
+}
+
+.contenedor-caracter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bg-image-caracter {
+  height: 80vh;
+  padding-top: -4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-loading {
+  margin-bottom: 2rem;
+  color: white!important;
+}
+.card-border {
+  border: none!important;
+  padding-bottom: 2rem;
+  background-color: black;
+}
+.card-text-character {
+  font-size: 17px;
+}
+.card-title-character {
+  font-size: 34px;
+}
+.container-planets {
+  padding-bottom: 4rem;
+}
+.text-footer {
+  font-size: 22px!important;
+  color: rgb(255, 255, 255)!important
+}
